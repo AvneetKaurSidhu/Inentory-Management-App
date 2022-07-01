@@ -1,0 +1,217 @@
+.unitbody {
+  padding: 15px 40px;
+  font-size: 14px;
+  overflow: hidden;
+  display: flex;
+  font-family: "Roboto";
+}
+.unitbody__dd {
+  display: flex;
+}
+.unitbody__datepicker {
+  width: 224px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466 !important;
+  position: relative;
+  margin: 8px -20px 2px 0;
+}
+
+.unitbody__leftarrow {
+  margin-top: 4px;
+  margin-right: 10px;
+  color: #475466;
+}
+
+.unitbody__rightarrow {
+  margin-top: 4px;
+  color: #475466;
+  margin-right: 20px;
+}
+
+.unitbody__month {
+  width: 130px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+  }
+}
+.unitbody__units {
+  width: 216px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+  margin-left: 150px;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin-top: 5px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 216px;
+  }
+}
+
+.unitbody__condition {
+  width: 130px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin-top: 5px;
+    margin-left: 130px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 130px;
+  }
+}
+
+.unitbodytable {
+  font-size: 14px;
+  &__thead {
+    background: #f4f5f9;
+
+    &-th {
+      background-color: #f4f5f9;
+      border-bottom: 2px solid #66cce7 !important;
+    }
+  }
+  &__tbody {
+    &-wrenchicon {
+      margin-right: 1rem;
+      color: grey;
+    }
+    &-bgAvailable {
+      background-color: #55cd97;
+      font-size: 14px;
+    }
+    &-bgDeprecated {
+      background-color: #94a1b3;
+      font-size: 14px;
+    }
+    &-bgTaken {
+      background-color: #1ca1c1;
+      font-size: 14px;
+    }
+    &-bgBroken {
+      background-color: red;
+      font-size: 14px;
+    }
+  }
+}
+
+.unitbody__calendaricon {
+  margin-left: 15px;
+}
+
+#tablestatus {
+  padding-left: 50px;
+}
+
+.unitbody__text {
+  margin: 10px 0px 10px 30px;
+  font-size: 14px;
+}
+
+.unitbody__btn {
+  border: 1px solid #ccd7e6;
+  border-radius: 2px;
+  color: #475466;
+  font-size: 14px;
+  margin-left: -6px;
+  margin-top: -3px;
+}
+
+
+@media screen and (max-width:768px){
+  .unitbody__month {
+    width: 20px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+  
+    &-select {
+      border: 1px solid #ccd7e6;
+      margin: 5px 10px;
+      border-radius: 2px;
+      color: #475466;
+      height: 35px;
+    }
+  }
+
+  .unitbody__leftarrow {
+    margin-top: 4px;
+    margin-right: -10px;
+    color: #475466;
+  }
+
+  .unitbody__rightarrow {
+    margin-top: 4px;
+    color: #475466;
+    margin-right: -10px;
+  }
+
+  .unitbody__dd {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -20px;
+  }
+
+  .unitbody__condition{
+    margin-left: -30px;
+  }
+
+
+  .unitbody__units {
+    width: 90px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin-left: 140px;
+  
+    &-select {
+      border: 1px solid #ccd7e6;
+      margin-top: 5px;
+      border-radius: 2px;
+      color: #475466;
+      height: 35px;
+      width: 216px;
+    }
+  }
+
+  .unitbody__condition {
+    width: 130px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+  
+    &-select {
+      border: 1px solid #ccd7e6;
+      margin-top: 5px;
+      margin-left: 130px;
+      border-radius: 2px;
+      color: #475466;
+      height: 35px;
+      width: 130px;
+    }
+  }
+
+  
+}

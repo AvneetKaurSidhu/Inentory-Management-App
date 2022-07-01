@@ -1,0 +1,90 @@
+.form{
+    width: 100%;
+}
+.required{
+    color: red;
+}
+.tborder{
+    border-bottom: 2px solid rgb(194,219,254);
+    background-color: rgba(244, 245, 249, 0.74);
+    border-top: 1px solid rgba(244, 245, 249, 0.904) ;
+    
+}
+.add{
+    color: #1CA1C1 ;
+    font-weight: 400;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+.checkbox{
+    // background-color: rgb(150, 179, 216);
+    border: none;
+
+}
+.input{
+    border:none;
+}
+.label{
+    text-align: left;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(72, 153, 185);
+    color: white;
+}
+.btn2{
+    background-color: rgb(240, 240, 240);
+    color: rgb(80,162,194);
+    margin-left: -0.85rem;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    width: 25%;
+    padding: 0.25em 0em;
+    border-radius: 0%;
+    font-weight: 500;
+}
+.btns{
+    // border-bottom: 2px solid lightgray;
+    display: flex;
+    flex-direction: row;
+}
+.form-label {
+    margin-bottom: 0rem;
+}
+
+.border-btn{
+    border-bottom: 2px solid lightgray;
+    width: 200%;
+    overflow: hidden;
+    margin-left: -6em;
+}
+
+option:hover{
+    background-color: white;
+}
+
+.add-new{
+    display: none;
+}
+
+@media screen and (max-width:480px){
+    .add-new{
+        display: block;
+        width: 30%;
+        background-color: rgb(240, 240, 240);
+    color: rgb(80,162,194);
+    // margin-left: -0.85rem;
+    }
+}
+
+// .archive-page {
+//     cursor: not-allowed;
+//     // height: 100%;
+//     opacity: .4;
+//     // position: absolute;
+//     // width: 100%;
+//     z-index: 1;
+//     background-color: #ebedf0;
+// }

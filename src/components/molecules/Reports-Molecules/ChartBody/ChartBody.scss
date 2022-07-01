@@ -1,0 +1,206 @@
+.chartbody {
+  display: flex;
+  padding: 15px 40px;
+  font-size: 14px;
+  overflow: hidden;
+  display: flex;
+}
+.chartbody__chart {
+  border-width: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 699px;
+  height: 300px;
+}
+
+.chartbody__dd {
+  display: flex;
+}
+.chartbody__img {
+  width: 1000px;
+  margin: 35px;
+}
+
+.chartbody__datepicker {
+  width: 220px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466 !important;
+  position: relative;
+  margin: 8px -20px 2px 0;
+}
+
+.chartbody__leftarrow {
+  margin-top: 4px;
+  margin-right: 10px;
+  color: #475466;
+}
+
+.chartbody__rightarrow {
+  margin-top: 4px;
+  color: #475466;
+  margin-right: 28px;
+}
+.chartbody__month {
+  width: 130px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+  }
+}
+.chartbody__units {
+  width: 216px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+  margin-left: 150px;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin-top: 5px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 216px;
+  }
+}
+
+.chartbody__calendaricon {
+  margin-left: 15px;
+}
+
+.chartbody__btn {
+  border: 1px solid #ccd7e6;
+  border-radius: 2px;
+  color: #475466;
+  font-size: 14px;
+  margin-left: -15px;
+  margin-top: -3px;
+}
+
+.chart-alt{
+  font-size: 2em;
+  padding-left: 8em;
+  padding-top: 5em;
+  // margin: 5em 10em;
+  
+}
+
+@media screen and (max-width:768px){
+
+.chartbody__units {
+  width: 150px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466;
+  position: relative;
+  margin-left: 30px;
+
+  &-select {
+    border: 1px solid #ccd7e6;
+    margin-top: 5px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 216px;
+  }
+}
+
+.chartbody__datepicker {
+  width: 190px;
+  height: 38px;
+  padding: 3px 2px;
+  color: #475466 !important;
+  position: relative;
+  margin: 8px -20px 2px 0;
+}
+
+.chartbody__btn {
+  border: 1px solid #ccd7e6;
+  border-radius: 2px;
+  color: #475466;
+  font-size: 12px;
+  margin-left: -18px;
+  margin-top: -3px;
+}
+  }
+
+  @media screen and (max-width:480px){
+
+    .chartbody__units {
+      width: 130px;
+      height: 30px;
+      padding: 3px 2px;
+      color: #475466;
+      position: relative;
+      margin-left: 10px;
+    
+      &-select {
+        border: 1px solid #ccd7e6;
+        margin-top: 5px;
+        border-radius: 2px;
+        color: #475466;
+        height: 35px;
+        width: 216px;
+      }
+    }
+    
+    .chartbody__datepicker {
+      width: 170px;
+      height: 38px;
+      padding: 3px 5px;
+      color: #475466 !important;
+      position: relative;
+      margin: 8px -20px 2px -19px;
+    }
+    
+    .chartbody__btn {
+      border: 1px solid #ccd7e6;
+      border-radius: 2px;
+      color: #475466;
+      font-size: 10px;
+      margin-left: -18px;
+      margin-top: -3px;
+    }
+
+    .chartbody__month {
+      width: 100px;
+      height: 38px;
+      padding: 3px 5px;
+      color: #475466;
+      position: relative;
+    margin-left: 2px;
+      &-select {
+        border: 1px solid #ccd7e6;
+        margin: 5px 10px;
+        border-radius: 2px;
+        color: #475466;
+        height: 35px;
+      }
+    }
+
+    .chartbody__leftarrow {
+      display: none;
+    }
+    
+    .chartbody__rightarrow {
+      display: none;
+    }
+
+    .chart-alt{
+      font-size: 2em;
+      padding-left: 3em;
+      padding-top: 2em;
+      // margin: 5em 10em;
+      
+    }
+      }

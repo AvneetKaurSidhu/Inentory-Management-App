@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+
+    .container-state{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-state{
+       
+        flex-basis: 100%;
+        width: 100%;
+    }
+    
+    .unit-state{
+    
+        flex-basis: 100%;
+        width: 100%;
+    }
+    }
+
+    @media screen and (max-width:480px){
+
+        .container-state{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header-state{
+           
+            flex-basis: 90%;
+            width: 63%;
+        }
+        
+        .unit-state{
+        
+            flex-basis: 90%;
+            width: 63%;
+        }
+        }

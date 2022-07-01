@@ -1,0 +1,25 @@
+.popup-box {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.box-pop {
+    position: relative;
+    width: 26%;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 4px;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+    height:100vh
+}
+
+.close{
+    outline: none !important;
+}

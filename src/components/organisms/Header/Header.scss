@@ -1,0 +1,130 @@
+// .header-box {
+//     width: 100%;
+//     background-color: white;
+//     color: #475466;
+//     border: 0.1px solid #dadee0;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+// .btn {
+//     margin: 0.2rem;
+// }
+// .hamburger {
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .app-title {
+//     display: flex;
+//     font-weight: 500;
+//     font-size: medium;
+//     align-items: flex-start;
+//     margin: 0 1.5rem;
+// }
+// .owner-box {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+// .app-owner {
+//     font-weight: 500;
+//     font-size: medium;
+//     margin-right: 2rem;
+//     cursor: pointer;
+// }
+// .owner-logo {
+//     background-color: #1ca1c1;
+//     border-radius: 100px;
+//     width: 43px;
+//     height: 43px;
+//     color: #ffffff;
+//     text-align: center;
+//     line-height: 44px;
+//     font-size: 18px;
+//     margin:0.5rem 1rem;
+//     cursor: pointer;
+// }
+
+.hamburger-icon{
+    color: black;
+    font-size: 1em;
+    display: none;
+}
+
+.icon-color{
+    color: white;
+}
+
+.app-heading{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+    margin: 0em 0em;
+   
+}
+
+.profile-icon{
+    height: 2.75em;
+    margin-left: 64em;
+    margin-top: 0.5em;
+}
+.profile-name{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em;
+    padding-top: 0.5em;
+}
+
+@media screen and (max-width:768px){
+    .hamburger-icon{
+        color: black;
+        font-size: 1em;
+        display: none;
+    }
+
+    .app-heading{
+        font-weight: 700;
+        font-size: 1.5em;
+        color: black;
+        margin: 0em 0em;
+    }
+
+    .profile-icon{
+        height: 2.75em;
+        margin-left: 28em;
+        margin-top: 0.5em;
+    }
+    .profile-name{
+        font-size: 1em;
+        font-weight: 700;
+        margin: 0.5em;
+        padding-top: 0.5em;
+    }
+}
+
+@media screen and (max-width:480px){
+    .hamburger-icon{
+        color: black;
+        font-size: 0.5em;
+        display: block;
+    }
+
+    .app-heading{
+        font-weight: 700;
+        font-size: 1em;
+        color: black;
+        margin: 0em 1em;
+    }
+
+    .profile-icon{
+        height: 2em;
+        margin-left: 8em;
+        margin-top: 0.25em;
+    }
+    .profile-name{
+        font-size: 1em;
+        font-weight: 700;
+        margin: 0.5em;
+        padding-top: 0.25em;
+    }
+}

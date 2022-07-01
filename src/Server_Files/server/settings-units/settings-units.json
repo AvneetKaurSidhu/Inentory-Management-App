@@ -1,0 +1,72 @@
+{
+"units":[
+    {
+        "id": 1,
+        "name" : "Chassis",
+        "icon" : "../../static/images/microchip-solid.svg"
+    },
+    {
+        "id": 2,
+        "name":"Hard Disk 1",
+        "icon":"../../static/images/laptop-solid.svg"
+    },
+    {
+        "id": 3,
+        "name":"hello",
+        "icon":"../../static/images/laptop-solid.svg"
+    },
+    {
+        "id": 4,
+        "name":"1111111",
+        "icon":"../../static/images/mobile-solid.svg"
+    },
+    {
+        "id": 5,
+        "name":"awb242a42",
+        "icon":"../../static/images/sd-card-solid.svg"
+    },
+    {
+        "id": 6,
+        "name":"Cable",
+        "icon":"../../static/images/microchip-solid.svg"
+    },
+    {
+        "id": 7,
+        "name":"fdgfff",
+        "icon":"../../static/images/mobile-solid.svg"
+    },
+    {
+        "id": 8,
+        "name":"keyboard",
+        "icon":"../../static/images/keyboard-solid.svg"
+    },
+    {
+        "id": 9,
+        "name":"Laptop",
+        "icon":"../../static/images/laptop-solid.svg"
+    },
+    {
+        "id": 10,
+        "name":"Memory",
+        "icon":"../../static/images/memory-solid.svg"
+    },
+    {
+        "id": 11,
+        "name":"Monitor",
+        "icon":"../../static/images/desktop-solid.svg"
+    },
+    {
+        "id": 12,
+        "name":"sd",
+        "icon":"../../static/images/microchip-solid.svg"
+    },
+    {
+        "id": 13,
+        "name":"tt5gfff",
+        "icon":"../../static/images/camera-solid.svg"
+    }
+    
+
+
+]
+}

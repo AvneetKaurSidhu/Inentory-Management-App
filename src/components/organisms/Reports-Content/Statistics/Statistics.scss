@@ -1,0 +1,41 @@
+@media screen and (max-width:768px){
+
+    .container-stats{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .header-stats{
+       
+        flex-basis: 70%;
+        width: 98%;
+    }
+    
+    .chart-body{
+    
+        flex-basis: 40%;
+        width: 100%;
+    }
+    }
+
+    @media screen and (max-width:480px){
+
+        .container-stats{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .header-stats{
+           
+            flex-basis: 100%;
+            width: 59%;
+        }
+        
+        .chart-body{
+        
+            flex-basis: 90%;
+            width: 100%;
+        }
+        }

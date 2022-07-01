@@ -1,0 +1,139 @@
+@import '../../../styles/variables';
+
+
+.dropdown-person {
+  display: block;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.personsInfo {
+  margin-left: 15px;
+}
+
+.tableHeader {
+  background-color: #f4f5f9;
+  text-align: left;
+  padding: 10px;
+}
+
+.tableData {
+  padding: 10px;
+  text-align: left;
+}
+
+.personDetails {
+  color: #1ca1c1;
+}
+
+.personName {
+  padding: 1em 1em 1em 0.625em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dadee0;
+  color: #475466;
+  font-weight: 700;
+  width: 100%;
+}
+
+@media(min-width: $tablet) {
+  .dropdown-person {
+    display: none;
+  }
+
+  .tableContainer {
+    width: 100%;
+  }
+
+
+  .personsInfo {
+    margin-left: 10px;
+  }
+
+
+  .tableHeader {
+    background-color: #f4f5f9;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .tableData {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .personDetails {
+    color: #1ca1c1;
+  }
+
+  .personName {
+    padding: 1em 1em 1em 0.625em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadee0;
+    color: #475466;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .personsTable {
+    display: flex;
+  }
+}
+
+@media(min-width: $desktop) {
+  .dropdown-person {
+    display: none;
+  }
+
+  .tableContainer {
+    width: 100%;
+    margin-left: 15px;
+    border: 1px;
+
+  }
+
+  .personsInfo {
+    margin-left: 10px;
+  }
+
+
+  .tableHeader {
+    background-color: #0e1614;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .tableData {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .personDetails {
+    color: #1ca1c1;
+  }
+
+  .personName {
+    padding: 1em 1em 1em 0.625em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadee0;
+    border-top: 1px solid #dadee0;
+    color: #475466;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .sidebarDetails {
+    margin-left: 1px;
+  }
+
+
+  .personsTable {
+    display: flex;
+    width: 850px
+  }
+
+  .table {
+    border: solid 1px #9bcdda;
+  }
+}

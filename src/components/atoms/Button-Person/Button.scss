@@ -1,0 +1,18 @@
+@import "../../../styles/variables";
+
+.button-wrapper {
+  display: block;
+  border-radius: 1px;
+  text-align: left;
+  text-decoration: none;
+  font-size: $text-font-size;
+  border: 1px   $nav-text-color;
+  background-color:#ddd;
+  //color:black;
+  color: #475466;
+  cursor: pointer;
+  position: relative;
+
+
+  
+}

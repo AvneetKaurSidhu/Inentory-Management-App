@@ -1,0 +1,7 @@
+.btn-save[disabled]:hover {
+    cursor: not-allowed;
+}
+button{
+    border: none;
+    background-color: white;
+}

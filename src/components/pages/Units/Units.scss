@@ -1,0 +1,88 @@
+.unit{
+  border-collapse: separate;
+  border-spacing: 0rem;
+  background-color: rgb(235, 235, 235);
+  font-size: 0.8rem;
+  width:100%;
+
+&__line {
+  margin-top: auto;
+}
+&__component {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: 0rem 1rem 0.5rem 1rem;
+  background-color: white;
+}
+&__table-entries{
+  margin: 0rem 1rem 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+&__btn {
+  width: 65%;
+  margin-right: 0.625rem;
+}
+&__searchbar {
+  width: 100%;
+  margin-bottom: auto;
+  border: none;
+}
+&__icons{
+  float: right;
+}
+
+&__totalBeneficiaries {
+  margin-bottom: -2rem;
+  font-size: 1rem;
+}
+&__table-body{
+background-color: white;
+}
+&__flex-item{
+  width:100%;
+  padding-left: 1rem;
+  font-weight: 500;
+  border: none;
+}
+&__flex-icons{
+  width:30%
+}
+}
+.heading{
+  font-weight: 600;
+}
+// tr{
+//  background-color: white;
+//  overflow: hidden;
+//  border: 1px solid lightgray;
+// }
+td{
+  overflow: hidden;
+}
+th{
+  font-weight: 600;
+}
+.unit{
+  &__status-buttons{
+  padding-left: 2rem;
+}
+&__button-taken, &__button-broken, &__button-deprecated{
+ color: white;
+ border-radius: 14px;
+ padding: 0.2rem 0.5rem;
+ border: none;
+}
+
+&__button-taken{
+  background-color: #1ca1c1;
+}
+
+&__button-broken{
+  background-color: #c75732;
+}
+
+&__button-deprecated{
+  background-color: #757372;
+}
+}

@@ -1,0 +1,150 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "person": "Araceli Church",
+      "email": "araceli_church@gmail.com",
+      "skype": "church7",
+      "information": [
+        {
+          "type": "Monitor",
+          "serial": "MON-00048",
+          "name": "LG",
+          "fromDate": "2020-01-02"
+        },
+        {
+          "type": "Memory",
+          "serial": "RAM-00033",
+          "name": "8",
+          "fromDate": "2020-01-08"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "person": "Barbara Spears",
+      "email": "barbaraspears@gmail.com",
+      "skype": "barbaraspears",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00017",
+          "name": "Dell X2",
+          "fromDate": "2020-08-08"
+        },
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00043",
+          "name": "160",
+          "fromDate": "2020-05-06"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "person": "Bailey Cook",
+      "email": "bailey101@gmail.com",
+      "skype": "baileycook",
+      "information": [
+        {
+          "type": "Monitor",
+          "serial": "MON-00049",
+          "name": "LG",
+          "fromDate": "2020-01-02"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "person": "Bailey Dorsey",
+      "email": "bailey_dorsey@gmail.com",
+      "skype": "bailey",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00044",
+          "name": "160",
+          "fromDate": "2020-05-06"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "person": "Bailey Kerr",
+      "email": "kerr24@gmail.com",
+      "skype": "kerr",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00018",
+          "name": "Dell X2",
+          "fromDate": "2020-09-08"
+        },
+        {
+          "type": "Computer",
+          "serial": "PC-00090",
+          "name": "Dell X2",
+          "fromDate": "2020-09-07"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "person": "Barbara Solomon",
+      "email": "barbara124@gmail.com",
+      "skype": "solomon",
+      "information": [
+       
+      ]
+    },
+    {
+      "id": 8,
+      "person": "Braylon Beltran",
+      "email": "braylonbeltran@gmail.com",
+      "skype": "belt5",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00019",
+          "name": "Dell X2",
+          "fromDate": "2020-07-08"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "person": "Braylon Strong",
+      "email": "strong7@gmail.com",
+      "skype": "strong7",
+      "information": []
+    },
+    {
+      "id": 11,
+      "person": "Hailee King",
+      "email": "hailee45@gmail.com",
+      "skype": "hailee45",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00046",
+          "name": "160",
+          "fromDate": "2020-05-08"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "person": "Clavin Spear",
+      "email": "calvin7@gmail.com",
+      "skype": "calvin7",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00048",
+          "name": "160",
+          "fromDate": "2020-05-10"
+        }
+      ]
+    }
+  ]
+}

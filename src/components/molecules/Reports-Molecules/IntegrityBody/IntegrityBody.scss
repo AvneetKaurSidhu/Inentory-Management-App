@@ -1,0 +1,25 @@
+.integritybody {
+  padding: 8px 9pt 20px 15px;
+  font-size: 16px;
+}
+.integritybody__layout {
+  margin: 20px 0px;
+}
+
+.integritybody__info {
+  margin: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.integrity-quantity{
+  font-weight: 700;
+}
+
+@media screen and (max-width:480px){
+  .integritybody {
+    padding: 8px 9pt 20px 0px;
+    font-size: 14px;
+  }
+}

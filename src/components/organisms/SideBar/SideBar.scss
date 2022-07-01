@@ -1,0 +1,62 @@
+.nav-list-item,
+.nav-list-item-settings,
+.nav-list-item-active {
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.nav-icon {
+    margin: 0.5rem;
+    color: #94a1b3;
+}
+.side-icon {
+    color: #94a1b3;
+    // position: relative;
+    // margin-left: 5em;
+    float: right;
+    margin-top: 0.35em;
+}
+.nav-label {
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    padding: 0.5em;
+}
+.nav-label:hover {
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+.nav-label:focus-within {
+    color:#1E90FF;
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-list-item:hover {
+        background: #303030;
+        border-left: 4px solid #632ce4;
+        cursor: pointer;
+        padding: 0.5em 0.5em 0.5em 0.25em;
+}
+.nav-list-item:focus {
+    background: black;
+    border-left: 4px solid #632ce4;
+    cursor: pointer;
+}
+.dropdown {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-label-settings {
+    margin-left: 2.7rem;
+}

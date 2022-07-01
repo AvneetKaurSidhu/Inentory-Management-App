@@ -1,0 +1,303 @@
+@import '../../../styles/variables';
+
+.popupBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+
+  height: auto;
+  max-height: 100%;
+
+  background: #fff;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-top: 50px;
+
+  padding-bottom: 300px;
+  border: 1px solid #999;
+  overflow: auto;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 20px;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: 361px;
+  top: 21px;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  border: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.popupboxHeading {
+  border-bottom: 1px solid #DADEE0;
+  width: 100%;
+  padding: 1em;
+  color: #475466;
+  font-weight: 700;
+}
+
+.itemType {
+  display: inline-block;
+  width: 70%;
+}
+
+.close-button {
+  display: inline-block;
+  width: 15%;
+}
+
+
+.typeInfo {
+  color: black;
+
+}
+
+.dateInfo {
+  color: black;
+  margin-left: 50px;
+  margin-bottom: 40px;
+
+}
+
+.blue {
+  color: #1ca1c1;
+}
+
+.popupitemDetails {
+  color: black;
+  font-weight: bold;
+}
+
+.link {
+  margin-top: 10px;
+  color: #1ca1c1;
+  text-decoration-line: underline;
+
+}
+
+.info-result-taken {
+  color: black;
+
+}
+
+.popup {
+  margin-top: 10px;
+}
+
+.logs {
+  margin-top: 10px;
+}
+
+@media(min-width: $tablet) {
+  .popupBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .box {
+    position: relative;
+    width: 400px;
+    height: auto;
+    max-height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 800px;
+    border: 1px solid #999;
+    overflow: auto;
+    margin-left: 200px;
+    margin-top: 300px;
+  }
+
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: 545px;
+    top: 300px;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+
+  .popupboxHeading {
+    border-bottom: 1px solid #DADEE0;
+    width: 100%;
+    padding: 0em;
+    color: #475466;
+    font-weight: 700;
+  }
+
+  .itemType {
+    display: inline-block;
+    width: 70%;
+  }
+
+  .close-button {
+    display: inline-block;
+    width: 15%;
+  }
+
+
+  .typeInfo {
+    color: black;
+
+  }
+
+  .dateInfo {
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+  }
+
+  .blue {
+    color: #1ca1c1;
+  }
+
+  .popupitemDetails {
+    color: black;
+    font-weight: bold;
+  }
+
+  .link {
+    margin-top: 10px;
+    color: #1ca1c1;
+    text-decoration-line: underline;
+
+  }
+
+  .info-result-taken {
+    color: black;
+
+  }
+
+  .popup {
+    margin-top: 10px;
+  }
+
+  .logs {
+    margin-top: 10px;
+  }
+}
+
+@media(min-width: $desktop) {
+  .popupBox {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+  }
+
+  .box {
+    position: relative;
+    width: 25%;
+    height: auto;
+    max-height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 800px;
+    border: 1px solid #999;
+    overflow: auto;
+    margin-left: 1030px;
+    margin-top: 0px;
+  }
+
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: 311px;
+    top: 0px;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+
+  .popupboxHeading {
+    border-bottom: 1px solid #DADEE0;
+    width: 100%;
+    padding: 1em;
+    color: #475466;
+    font-weight: 700;
+  }
+
+  .itemType {
+    display: inline-block;
+    width: 70%;
+  }
+
+  .close-button {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .typeInfo {
+    color: black;
+
+  }
+
+  .dateInfo {
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+  }
+
+  .blue {
+    color: #1ca1c1;
+  }
+
+  .popupitemDetails {
+    color: black;
+    font-weight: bold;
+  }
+
+  .link {
+    margin-top: 10px;
+    color: #1ca1c1;
+    text-decoration-line: underline;
+
+  }
+
+  .info-result-taken {
+    color: black;
+
+  }
+
+  .popup {
+    margin-top: 10px;
+  }
+
+  .logs {
+    margin-top: 10px;
+  }
+}

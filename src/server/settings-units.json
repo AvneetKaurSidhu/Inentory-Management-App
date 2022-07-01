@@ -1,0 +1,156 @@
+{
+  "units": [
+    {
+      "name": "Chassis",
+      "sname": "CPU",
+      "icon": "../../static/images/microchip-solid.svg",
+      "properties": [
+        {
+          "label": "vendor",
+          "defaultValue": "Intel",
+          "name": true,
+          "required": true
+        }
+      ],
+      "parts": [
+        {
+          "partName": "memory",
+          "name": false,
+          "required": true
+        }
+      ],
+      "comments": "Working !",
+      "id": 1
+    },
+    {
+      "name": "Hard Disk 1",
+      "sname": "Disk",
+      "icon": "../../static/images/hard-drive-solid.svg",
+      "properties": [
+        {
+          "label": "",
+          "defaultValue": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [
+        {
+          "partName": "Sandisk",
+          "name": true,
+          "required": false
+        }
+      ],
+      "comments": "Great !",
+      "id": 2
+    },
+    {
+      "name": "Lenovo",
+      "sname": "ThinkPad",
+      "icon": "../../static/images/laptop-solid.svg",
+      "properties": [
+        {
+          "label": "vendor",
+          "defaultValue": "lenovo",
+          "name": true,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "comments": "Great Product !",
+      "id": 3
+    },
+    {
+      "name": "keyboard",
+      "sname": "",
+      "icon": "../../static/images/keyboard-solid.svg",
+      "properties": [
+        {
+          "label": "vednor",
+          "defaultValue": "logitech",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "comments": "",
+      "id": 4
+    },
+    {
+      "name": "One Plus",
+      "sname": "1+",
+      "icon": "../../static/images/mobile-solid.svg",
+      "properties": [
+        {
+          "label": "",
+          "defaultValue": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [
+        {
+          "partName": "camera",
+          "name": true,
+          "required": false
+        },
+        {
+          "partName": "touch screen",
+          "name": true,
+          "required": true
+        }
+      ],
+      "comments": "Great !",
+      "id": 5
+    },
+    {
+      "name": "SandDisk",
+      "sname": "SD Card",
+      "icon": "../../static/images/sd-card-solid.svg",
+      "properties": [
+        {
+          "label": "",
+          "defaultValue": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [
+        {
+          "partName": "chip",
+          "name": true,
+          "required": false
+        }
+      ],
+      "comments": "1TB Storage",
+      "id": 6
+    },
+    {
+      "name": "Monitor",
+      "sname": "",
+      "icon": "../../static/images/desktop-solid.svg",
+      "properties": [
+        {
+          "label": "",
+          "defaultValue": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [
+        {
+          "partName": "VGA Cable",
+          "name": true,
+          "required": false
+        },
+        {
+          "partName": "Ports",
+          "name": false,
+          "required": true
+        }
+      ],
+      "comments": "23 inch Monitor",
+      "id": 7
+    }
+  ]
+}

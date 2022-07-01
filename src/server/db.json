@@ -1,0 +1,202 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "status": "Taken",
+      "serial": "PC-00001",
+      "type": "1111111",
+      "name": "keyboard 102 keys USB",
+      "assignedTo": "Bailey Dorsey",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 2,
+      "status": "Taken",
+      "serial": "CPU-00001",
+      "type": "Chassis",
+      "name": "15-3200zz / Intel",
+      "assignedTo": "Barbara Solomon",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 3,
+      "status": "Taken",
+      "serial": "HDD-00001",
+      "type": "Hard DisK 1",
+      "name": "Seagate",
+      "assignedTo": "Araceli Church",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 4,
+      "status": "Taken",
+      "serial": "RAM-00001",
+      "type": "Memory",
+      "name": "2",
+      "assignedTo": "Bailey Cook",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 5,
+      "status": "Taken",
+      "serial": "PC-00002",
+      "type": "1111111",
+      "name": "Dell X2asdfasdf",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 6,
+      "status": "Broken",
+      "serial": "CPU-00002",
+      "type": "Chassis",
+      "name": "15-3200 / Intel6465465",
+      "assignedTo": "",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 7,
+      "status": "Taken",
+      "serial": "HDD-00002",
+      "type": "Hard DisK 1",
+      "name": "Seagate",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 8,
+      "status": "Broken",
+      "serial": "RAM-00002",
+      "type": "Memory",
+      "name": "82222",
+      "assignedTo": "",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 9,
+      "status": "Taken",
+      "serial": "PC-00003",
+      "type": "1111111",
+      "name": "sDell X2wwssss",
+      "assignedTo": "Hailee Wyatt",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 10,
+      "status": "Taken",
+      "serial": "CPU-00003",
+      "type": "Chassis",
+      "name": "15-32004334 / Intel",
+      "assignedTo": "Bailey Kerr",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 11,
+      "status": "Deprecated",
+      "serial": "HDD-00003",
+      "type": "Hard DisK 1",
+      "name": "Seagate",
+      "assignedTo": "",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 12,
+      "status": "Taken",
+      "serial": "RAM-00003",
+      "type": "Memory",
+      "name": "8",
+      "assignedTo": "Bailey Dorsey",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 13,
+      "status": "Taken",
+      "serial": "PC-00004",
+      "type": "1111111",
+      "name": "Dell X2 / ",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 14,
+      "status": "Taken",
+      "serial": "CPU-00004",
+      "type": "Chassis",
+      "name": "15-3200 / Intel",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 15,
+      "status": "Taken",
+      "serial": "HDD-00004",
+      "type": "Hard DisK 1",
+      "name": "Seagate",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 16,
+      "status": "Taken",
+      "serial": "RAM-00004",
+      "type": "Memory",
+      "name": "8",
+      "assignedTo": "Bailey Spears",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 17,
+      "status": "Taken",
+      "serial": "PC-00005",
+      "type": "1111111",
+      "name": "Dell X2",
+      "assignedTo": "Kayden Holland",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 18,
+      "status": "Taken",
+      "serial": "CPU-00005",
+      "type": "Chassis",
+      "name": "15-3200",
+      "assignedTo": "Bailey Dorsey",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 19,
+      "status": "Taken",
+      "serial": "HDD-00005",
+      "type": "Hard DisK 1",
+      "name": "Seagate",
+      "assignedTo": "Kayden Holland",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 20,
+      "status": "Taken",
+      "serial": "RAM-00005",
+      "type": "Memory",
+      "name": "8",
+      "assignedTo": "Kayden Holland",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 21,
+      "status": "Deprecated",
+      "serial": "PC-00006",
+      "type": "1111111",
+      "name": "Dell X2",
+      "assignedTo": "",
+      "from": "12 March 2015"
+    },
+    {
+      "id": 22,
+      "status": "Deprecated",
+      "serial": "PC-00006",
+      "type": "1111111",
+      "name": "Dell X2",
+      "assignedTo": "",
+      "from": "12 March 2015"
+    }
+  ]
+}
